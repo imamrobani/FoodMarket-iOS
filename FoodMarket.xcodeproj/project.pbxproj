@@ -7,18 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE05598E2AFF245900974847 /* EmptyOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE05598D2AFF245900974847 /* EmptyOrderView.swift */; };
+		CE0559912AFF28CC00974847 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0559902AFF28CC00974847 /* SignUpView.swift */; };
+		CE595FC62B0AE3FD00C816AD /* OrderSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE595FC52B0AE3FD00C816AD /* OrderSummaryView.swift */; };
+		CE595FC92B0AED8500C816AD /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE595FC82B0AED8500C816AD /* FoodItem.swift */; };
+		CE595FCC2B0AF27C00C816AD /* ItemValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE595FCB2B0AF27C00C816AD /* ItemValue.swift */; };
+		CE6AFFE92B011EE70014C2DC /* SuccessSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6AFFE82B011EE70014C2DC /* SuccessSignUpView.swift */; };
+		CEA9BA992B01B07D00AEBBE0 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA9BA982B01B07D00AEBBE0 /* Header.swift */; };
+		CECC71EB2AF919F50080BBCE /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECC71E62AF919F50080BBCE /* Poppins-Bold.ttf */; };
+		CECC71EC2AF919F50080BBCE /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECC71E72AF919F50080BBCE /* Poppins-Medium.ttf */; };
+		CECC71ED2AF919F50080BBCE /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECC71E82AF919F50080BBCE /* Poppins-Regular.ttf */; };
+		CECC71EE2AF919F50080BBCE /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECC71E92AF919F50080BBCE /* Poppins-ExtraBold.ttf */; };
+		CECC71EF2AF919F50080BBCE /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECC71EA2AF919F50080BBCE /* Poppins-SemiBold.ttf */; };
+		CECC71F22AF927350080BBCE /* SuccessOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC71F12AF927350080BBCE /* SuccessOrderView.swift */; };
+		CECC71F62AF9345D0080BBCE /* FMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC71F52AF9345D0080BBCE /* FMButton.swift */; };
 		CED0B1712ADED15700EDF3AC /* FoodMarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0B1702ADED15700EDF3AC /* FoodMarketApp.swift */; };
-		CED0B1732ADED15700EDF3AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0B1722ADED15700EDF3AC /* ContentView.swift */; };
+		CED0B1732ADED15700EDF3AC /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0B1722ADED15700EDF3AC /* SplashView.swift */; };
 		CED0B1752ADED15800EDF3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED0B1742ADED15800EDF3AC /* Assets.xcassets */; };
 		CED0B1782ADED15800EDF3AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED0B1772ADED15800EDF3AC /* Preview Assets.xcassets */; };
+		CED0B1822ADED22100EDF3AC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0B1812ADED22100EDF3AC /* Color.swift */; };
+		CED0B1842ADED54100EDF3AC /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0B1832ADED54100EDF3AC /* Text.swift */; };
+		CED0B1922ADED5D800EDF3AC /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CED0B1892ADED5D800EDF3AC /* Inter-Bold.ttf */; };
+		CED0B1932ADED5D800EDF3AC /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CED0B18A2ADED5D800EDF3AC /* Inter-ExtraBold.ttf */; };
+		CED0B1952ADED5D800EDF3AC /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CED0B18C2ADED5D800EDF3AC /* Inter-SemiBold.ttf */; };
+		CED0B1962ADED5D800EDF3AC /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CED0B18D2ADED5D800EDF3AC /* Inter-Regular.ttf */; };
+		CED0B1982ADED5D800EDF3AC /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CED0B18F2ADED5D800EDF3AC /* Inter-Medium.ttf */; };
+		CED0B1A02ADEE15200EDF3AC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0B19F2ADEE15200EDF3AC /* LoginView.swift */; };
+		CED7DD862B085A0A00A4ED9B /* SignUpAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7DD852B085A0A00A4ED9B /* SignUpAddressView.swift */; };
+		CED7DD892B08742200A4ED9B /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7DD882B08742200A4ED9B /* TextInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE05598D2AFF245900974847 /* EmptyOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyOrderView.swift; sourceTree = "<group>"; };
+		CE0559902AFF28CC00974847 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CE595FC52B0AE3FD00C816AD /* OrderSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSummaryView.swift; sourceTree = "<group>"; };
+		CE595FC82B0AED8500C816AD /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		CE595FCB2B0AF27C00C816AD /* ItemValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemValue.swift; sourceTree = "<group>"; };
+		CE6AFFE82B011EE70014C2DC /* SuccessSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessSignUpView.swift; sourceTree = "<group>"; };
+		CEA9BA982B01B07D00AEBBE0 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		CECC71E62AF919F50080BBCE /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		CECC71E72AF919F50080BBCE /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		CECC71E82AF919F50080BBCE /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		CECC71E92AF919F50080BBCE /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CECC71EA2AF919F50080BBCE /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		CECC71F12AF927350080BBCE /* SuccessOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessOrderView.swift; sourceTree = "<group>"; };
+		CECC71F52AF9345D0080BBCE /* FMButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMButton.swift; sourceTree = "<group>"; };
 		CED0B16D2ADED15700EDF3AC /* FoodMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED0B1702ADED15700EDF3AC /* FoodMarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMarketApp.swift; sourceTree = "<group>"; };
-		CED0B1722ADED15700EDF3AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CED0B1722ADED15700EDF3AC /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		CED0B1742ADED15800EDF3AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED0B1772ADED15800EDF3AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CED0B1812ADED22100EDF3AC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		CED0B1832ADED54100EDF3AC /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		CED0B1892ADED5D800EDF3AC /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		CED0B18A2ADED5D800EDF3AC /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CED0B18C2ADED5D800EDF3AC /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		CED0B18D2ADED5D800EDF3AC /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		CED0B18F2ADED5D800EDF3AC /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		CED0B1992ADED5FC00EDF3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED0B19F2ADEE15200EDF3AC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CED7DD852B085A0A00A4ED9B /* SignUpAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAddressView.swift; sourceTree = "<group>"; };
+		CED7DD882B08742200A4ED9B /* TextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +81,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE05598C2AFF242600974847 /* EmptyOrder */ = {
+			isa = PBXGroup;
+			children = (
+				CE05598D2AFF245900974847 /* EmptyOrderView.swift */,
+			);
+			path = EmptyOrder;
+			sourceTree = "<group>";
+		};
+		CE05598F2AFF28AA00974847 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				CE0559902AFF28CC00974847 /* SignUpView.swift */,
+				CE6AFFE82B011EE70014C2DC /* SuccessSignUpView.swift */,
+				CED7DD852B085A0A00A4ED9B /* SignUpAddressView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		CE595FC32B0AE3E500C816AD /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				CE595FC42B0AE3EC00C816AD /* OrderSummary */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		CE595FC42B0AE3EC00C816AD /* OrderSummary */ = {
+			isa = PBXGroup;
+			children = (
+				CE595FC52B0AE3FD00C816AD /* OrderSummaryView.swift */,
+			);
+			path = OrderSummary;
+			sourceTree = "<group>";
+		};
+		CE595FC72B0AED5C00C816AD /* FoodItem */ = {
+			isa = PBXGroup;
+			children = (
+				CE595FC82B0AED8500C816AD /* FoodItem.swift */,
+			);
+			path = FoodItem;
+			sourceTree = "<group>";
+		};
+		CE595FCA2B0AF26400C816AD /* ItemValue */ = {
+			isa = PBXGroup;
+			children = (
+				CE595FCB2B0AF27C00C816AD /* ItemValue.swift */,
+			);
+			path = ItemValue;
+			sourceTree = "<group>";
+		};
+		CEA9BA972B01AE2300AEBBE0 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				CEA9BA982B01B07D00AEBBE0 /* Header.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		CECC71F02AF9271E0080BBCE /* SuccessOrder */ = {
+			isa = PBXGroup;
+			children = (
+				CECC71F12AF927350080BBCE /* SuccessOrderView.swift */,
+			);
+			path = SuccessOrder;
+			sourceTree = "<group>";
+		};
+		CECC71F32AF934290080BBCE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE595FCA2B0AF26400C816AD /* ItemValue */,
+				CE595FC72B0AED5C00C816AD /* FoodItem */,
+				CED7DD872B08740A00A4ED9B /* TextInput */,
+				CEA9BA972B01AE2300AEBBE0 /* Headers */,
+				CECC71F42AF9343A0080BBCE /* Buttons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CECC71F42AF9343A0080BBCE /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				CECC71F52AF9345D0080BBCE /* FMButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		CED0B1642ADED15600EDF3AC = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +186,11 @@
 		CED0B16F2ADED15700EDF3AC /* FoodMarket */ = {
 			isa = PBXGroup;
 			children = (
-				CED0B1702ADED15700EDF3AC /* FoodMarketApp.swift */,
-				CED0B1722ADED15700EDF3AC /* ContentView.swift */,
-				CED0B1742ADED15800EDF3AC /* Assets.xcassets */,
+				CED0B19B2ADEDE9A00EDF3AC /* Base */,
+				CECC71F32AF934290080BBCE /* Views */,
+				CED0B19A2ADEDE7100EDF3AC /* Feature */,
+				CED0B1852ADED59400EDF3AC /* Resource */,
+				CED0B17E2ADED1AF00EDF3AC /* Utilities */,
 				CED0B1762ADED15800EDF3AC /* Preview Content */,
 			);
 			path = FoodMarket;
@@ -65,6 +202,103 @@
 				CED0B1772ADED15800EDF3AC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CED0B17E2ADED1AF00EDF3AC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CED0B17F2ADED1EF00EDF3AC /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CED0B17F2ADED1EF00EDF3AC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CED0B1812ADED22100EDF3AC /* Color.swift */,
+				CED0B1832ADED54100EDF3AC /* Text.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CED0B1852ADED59400EDF3AC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CED0B1992ADED5FC00EDF3AC /* Info.plist */,
+				CED0B1742ADED15800EDF3AC /* Assets.xcassets */,
+				CED0B1862ADED5AE00EDF3AC /* Fonts */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CED0B1862ADED5AE00EDF3AC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CECC71E62AF919F50080BBCE /* Poppins-Bold.ttf */,
+				CECC71E92AF919F50080BBCE /* Poppins-ExtraBold.ttf */,
+				CECC71E72AF919F50080BBCE /* Poppins-Medium.ttf */,
+				CECC71E82AF919F50080BBCE /* Poppins-Regular.ttf */,
+				CECC71EA2AF919F50080BBCE /* Poppins-SemiBold.ttf */,
+				CED0B1892ADED5D800EDF3AC /* Inter-Bold.ttf */,
+				CED0B18A2ADED5D800EDF3AC /* Inter-ExtraBold.ttf */,
+				CED0B18F2ADED5D800EDF3AC /* Inter-Medium.ttf */,
+				CED0B18D2ADED5D800EDF3AC /* Inter-Regular.ttf */,
+				CED0B18C2ADED5D800EDF3AC /* Inter-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CED0B19A2ADEDE7100EDF3AC /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				CE595FC32B0AE3E500C816AD /* Order */,
+				CE05598C2AFF242600974847 /* EmptyOrder */,
+				CECC71F02AF9271E0080BBCE /* SuccessOrder */,
+				CED0B19D2ADEDEC300EDF3AC /* Auth */,
+				CED0B19C2ADEDEB500EDF3AC /* Splash */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		CED0B19B2ADEDE9A00EDF3AC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CED0B1702ADED15700EDF3AC /* FoodMarketApp.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CED0B19C2ADEDEB500EDF3AC /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				CED0B1722ADED15700EDF3AC /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		CED0B19D2ADEDEC300EDF3AC /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				CE05598F2AFF28AA00974847 /* SignUp */,
+				CED0B19E2ADEE14100EDF3AC /* Login */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		CED0B19E2ADEE14100EDF3AC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CED0B19F2ADEE15200EDF3AC /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CED7DD872B08740A00A4ED9B /* TextInput */ = {
+			isa = PBXGroup;
+			children = (
+				CED7DD882B08742200A4ED9B /* TextInput.swift */,
+			);
+			path = TextInput;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +359,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECC71EE2AF919F50080BBCE /* Poppins-ExtraBold.ttf in Resources */,
 				CED0B1782ADED15800EDF3AC /* Preview Assets.xcassets in Resources */,
+				CED0B1962ADED5D800EDF3AC /* Inter-Regular.ttf in Resources */,
+				CECC71EC2AF919F50080BBCE /* Poppins-Medium.ttf in Resources */,
+				CECC71EF2AF919F50080BBCE /* Poppins-SemiBold.ttf in Resources */,
+				CED0B1922ADED5D800EDF3AC /* Inter-Bold.ttf in Resources */,
 				CED0B1752ADED15800EDF3AC /* Assets.xcassets in Resources */,
+				CED0B1952ADED5D800EDF3AC /* Inter-SemiBold.ttf in Resources */,
+				CECC71EB2AF919F50080BBCE /* Poppins-Bold.ttf in Resources */,
+				CECC71ED2AF919F50080BBCE /* Poppins-Regular.ttf in Resources */,
+				CED0B1932ADED5D800EDF3AC /* Inter-ExtraBold.ttf in Resources */,
+				CED0B1982ADED5D800EDF3AC /* Inter-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +381,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED0B1732ADED15700EDF3AC /* ContentView.swift in Sources */,
+				CED0B1732ADED15700EDF3AC /* SplashView.swift in Sources */,
+				CECC71F22AF927350080BBCE /* SuccessOrderView.swift in Sources */,
 				CED0B1712ADED15700EDF3AC /* FoodMarketApp.swift in Sources */,
+				CED0B1842ADED54100EDF3AC /* Text.swift in Sources */,
+				CE595FC92B0AED8500C816AD /* FoodItem.swift in Sources */,
+				CE6AFFE92B011EE70014C2DC /* SuccessSignUpView.swift in Sources */,
+				CE595FCC2B0AF27C00C816AD /* ItemValue.swift in Sources */,
+				CED7DD862B085A0A00A4ED9B /* SignUpAddressView.swift in Sources */,
+				CEA9BA992B01B07D00AEBBE0 /* Header.swift in Sources */,
+				CECC71F62AF9345D0080BBCE /* FMButton.swift in Sources */,
+				CED7DD892B08742200A4ED9B /* TextInput.swift in Sources */,
+				CED0B1A02ADEE15200EDF3AC /* LoginView.swift in Sources */,
+				CE05598E2AFF245900974847 /* EmptyOrderView.swift in Sources */,
+				CE0559912AFF28CC00974847 /* SignUpView.swift in Sources */,
+				CE595FC62B0AE3FD00C816AD /* OrderSummaryView.swift in Sources */,
+				CED0B1822ADED22100EDF3AC /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -254,6 +513,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -275,6 +535,7 @@
 				DEVELOPMENT_TEAM = 3Z22XRRSB2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodMarket/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +565,7 @@
 				DEVELOPMENT_TEAM = 3Z22XRRSB2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodMarket/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
