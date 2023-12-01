@@ -7,12 +7,19 @@
 
 import SwiftUI
 
-struct OrderModifiers: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct SectionCardOrderStyle: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .padding(.horizontal, 24)
+            .padding(.vertical, 16)
+            .frame(maxWidth: .infinity, alignment: .leading )
+            .background(.white)
+//            .padding(.vertical, 8)
     }
 }
 
-#Preview {
-    OrderModifiers()
+extension View {
+    func sectionCardOrderStyle() -> some View {
+        self.modifier(SectionCardOrderStyle())
+    }
 }

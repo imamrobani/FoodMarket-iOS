@@ -17,7 +17,7 @@ struct FoodItem: View {
         HStack(spacing: 16) {
             Image(uiImage: image)
                 .resizable()
-                .aspectRatio(contentMode: .fit)
+                .aspectRatio(contentMode: .fill)
                 .frame(width: 60, height: 60)
                 .cornerRadius(8)
             VStack(alignment: .leading) {

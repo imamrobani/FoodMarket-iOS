@@ -21,7 +21,6 @@ struct Header: View {
     
     var body: some View {
         HStack(spacing: 24) {
-            
             if isBack {
                 Button {
                     print("Back")

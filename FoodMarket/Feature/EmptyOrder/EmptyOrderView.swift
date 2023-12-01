@@ -10,7 +10,7 @@ import SwiftUI
 struct EmptyOrderView: View {
     var body: some View {
         VStack {
-            Image("Order-Empty")
+            Image(.orderEmpty)
             VStack(spacing: 8) {
                 Text("Ouch! Hungry")
                     .headline20Regular()
@@ -20,7 +20,7 @@ struct EmptyOrderView: View {
                     .foregroundColor(.grayPrimary)
             }
             .padding(.bottom, 30)
-            
+                    
             Button {
                 print("Find Foods")
             } label: {

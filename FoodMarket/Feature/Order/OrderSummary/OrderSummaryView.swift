@@ -20,6 +20,8 @@ struct OrderSummaryView: View {
                         FoodItem(image: .food1, name: "Cherry Healthy", description: "IDR 37.900")
                         Spacer()
                         Text("14 items")
+                            .paragraph13Reguler()
+                            .foregroundColor(.grayPrimary)
                     }
                     .padding(.vertical, 8)
                     
@@ -31,9 +33,8 @@ struct OrderSummaryView: View {
                     ItemValue(name: "Total Price", desc: "IDR 209.390", color: .aloha)
                     
                 }
-                .padding(24)
-                .frame(maxWidth: .infinity, alignment: .leading )
-                .background(.white)
+                .modifier(SectionCardOrderStyle())
+                .padding(.vertical, 8)
                 
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Deliver to: ")
@@ -44,10 +45,7 @@ struct OrderSummaryView: View {
                     ItemValue(name: "House No.", desc: "A5 Hook")
                     ItemValue(name: "City", desc: "Bandung")
                 }
-                .padding(24)
-                .frame(maxWidth: .infinity, alignment: .leading )
-                .background(.white)
-                
+                .modifier(SectionCardOrderStyle())
                 
                 Button {
                     print("Checkout Now")

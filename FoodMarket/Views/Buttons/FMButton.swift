@@ -23,7 +23,7 @@ struct FMButton: View {
         Text(title)
             .paragraph14Medium()
             .foregroundColor(textColor)
-            .padding(12)
+            .padding(16)
             .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
             .background(bgColor)
             .cornerRadius(8)
